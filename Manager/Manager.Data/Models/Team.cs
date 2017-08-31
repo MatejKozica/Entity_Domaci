@@ -16,6 +16,5 @@ namespace Manager.Data.Models
         public string LogoAnimalName { get; set; }
         public int Capacity = 5;
 
-        public List<Player> TeamPlayers { get; set;}
     }
 }

@@ -12,12 +12,12 @@ namespace Manager.Data
     {
         protected override void Seed(MatchContext context)
         {
-            context.Players.Add(new Player()
+            context.Teams.Add(new Team()
             {
-                FirstName = "Mate",
-                LastName = "Matic",
-                PhoneNumber = 001,
-                Email = "mate.matic@gmail.com"
+                Name = "Navy",
+                LogoAnimalName = "Seal",
+                TournamentsWon = 0,
+                LastTournamentWonDate = null
             }
             );
             context.SaveChanges();

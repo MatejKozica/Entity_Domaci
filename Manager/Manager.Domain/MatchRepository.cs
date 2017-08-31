@@ -19,7 +19,7 @@ namespace Manager.Domain
             }
         }
 
-        public void CreateNewPlayer(string name, string lastname, int number, string mail)
+        public void CreateNewPlayer(string name, string lastname, int number, string mail, string team)
         {
             using (var context = new MatchContext())
             {
@@ -30,7 +30,9 @@ namespace Manager.Domain
                         FirstName = name,
                         LastName = lastname,
                         PhoneNumber = number,
-                        Email = mail
+                        Email = mail,
+                        PlayerTeam = context.Teams.FirstOrDefault(x => x.Name == team)
+
                     });
                     context.SaveChanges();
                 }
@@ -54,16 +56,5 @@ namespace Manager.Domain
                 context.SaveChanges();
             }
         }
-
-        //public void AddPlayerToTeam(string player, string team)
-        //{
-        //    using (var context = new MatchContext())
-        //    {
-                
-
-
-        //    }
-        //}
-
     }
 }

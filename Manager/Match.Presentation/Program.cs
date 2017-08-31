@@ -14,10 +14,14 @@ namespace Match.Presentation
         {
             var matchRepository = new MatchRepository();
 
-            matchRepository.CreateNewPlayer("Luka", "Bulić", 202, "luka.bulic@gmail.com");
-            matchRepository.CreateNewPlayer("Luka", "Korda", 202, "luka.korda@gmail.com");
             matchRepository.CreateNewTeam("Cloud9", "Hawk");
-            matchRepository.CreateNewTeam("Navy", "Seal");
+
+            matchRepository.CreateNewPlayer("Mate","Matić", 101, "mate.matic@gmail.com", "Navy");
+            matchRepository.CreateNewPlayer("Luka", "Bulić", 102, "luka.bulic@gmail.com", "Navy");
+            matchRepository.CreateNewPlayer("Luka", "Korda", 103, "luka.korda@gmail.com", "Cloud9");
+            
+            
+
 
             matchRepository.GetAllPlayers().ForEach(x => Console.WriteLine(x.FirstName + " " + x.LastName));           
         }

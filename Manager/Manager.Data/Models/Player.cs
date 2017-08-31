@@ -15,6 +15,6 @@ namespace Manager.Data.Models
         public int PhoneNumber { get; set; }
         public string Email { get; set; }
 
-        public Team Team { get; set; }
+        public Team PlayerTeam { get; set; }
     }
 }
