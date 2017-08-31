@@ -16,6 +16,9 @@ namespace Manager.Data
         }
 
 
-        public DbSet<Player> Players { get; set; }     
+        public DbSet<Player> Players { get; set; } 
+        public DbSet<Team> Teams { get; set; }
+        public DbSet<Match> Matchs { get; set; }
+        public DbSet<Tournament> Tournaments { get; set; }
     }
 }

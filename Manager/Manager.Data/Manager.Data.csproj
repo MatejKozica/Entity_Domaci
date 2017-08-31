@@ -51,7 +51,10 @@
   <ItemGroup>
     <Compile Include="MatchContext.cs" />
     <Compile Include="MatchDbIniatializer.cs" />
+    <Compile Include="Models\Match.cs" />
     <Compile Include="Models\Player.cs" />
+    <Compile Include="Models\Team.cs" />
+    <Compile Include="Models\Tournament.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
