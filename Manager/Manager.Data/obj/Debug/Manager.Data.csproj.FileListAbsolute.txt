@@ -1,0 +1,10 @@
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Manager.Data\bin\Debug\Manager.Data.dll.config
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Manager.Data\bin\Debug\Manager.Data.dll
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Manager.Data\bin\Debug\Manager.Data.pdb
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Manager.Data\bin\Debug\EntityFramework.dll
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Manager.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Manager.Data\bin\Debug\EntityFramework.xml
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Manager.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Manager.Data\obj\Debug\Manager.Data.csprojResolveAssemblyReference.cache
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Manager.Data\obj\Debug\Manager.Data.dll
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Manager.Data\obj\Debug\Manager.Data.pdb

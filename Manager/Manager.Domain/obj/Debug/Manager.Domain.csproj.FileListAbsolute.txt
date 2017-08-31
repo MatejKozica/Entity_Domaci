@@ -1,0 +1,12 @@
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Manager.Domain\bin\Debug\Manager.Domain.dll
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Manager.Domain\bin\Debug\Manager.Domain.pdb
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Manager.Domain\obj\Debug\Manager.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Manager.Domain\obj\Debug\Manager.Domain.dll
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Manager.Domain\obj\Debug\Manager.Domain.pdb
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Manager.Domain\bin\Debug\Manager.Domain.dll.config
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Manager.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Manager.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Manager.Domain\bin\Debug\Manager.Data.dll
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Manager.Domain\bin\Debug\Manager.Data.pdb
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Manager.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Manager.Domain\bin\Debug\EntityFramework.SqlServer.xml
