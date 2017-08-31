@@ -56,5 +56,25 @@ namespace Manager.Domain
                 context.SaveChanges();
             }
         }
+
+        public void RemovePlayerFromTeam(string name)
+        {
+            using (var context = new MatchContext())
+            {
+                context.Players.FirstOrDefault(x => x.FirstName == name).PlayerTeam = null;
+                context.SaveChanges();
+            }
+        }
+
+        public void AddPlayerToTeam(string name, string team)
+        {
+            using (var context = new MatchContext())
+            {
+                context.Players.FirstOrDefault(x => x.FirstName == name).PlayerTeam = context.Teams.FirstOrDefault(y => y.Name == team);
+                context.SaveChanges();
+            }
+        }
+
+
     }
 }
