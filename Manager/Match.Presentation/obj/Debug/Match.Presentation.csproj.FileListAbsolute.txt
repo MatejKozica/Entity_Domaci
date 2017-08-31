@@ -1,0 +1,14 @@
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Match.Presentation\bin\Debug\Match.Presentation.exe.config
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Match.Presentation\bin\Debug\Match.Presentation.exe
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Match.Presentation\bin\Debug\Match.Presentation.pdb
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Match.Presentation\bin\Debug\Manager.Data.dll
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Match.Presentation\bin\Debug\Manager.Domain.dll
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Match.Presentation\bin\Debug\EntityFramework.dll
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Match.Presentation\bin\Debug\Manager.Data.pdb
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Match.Presentation\bin\Debug\Manager.Domain.pdb
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Match.Presentation\bin\Debug\EntityFramework.xml
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Match.Presentation\obj\Debug\Match.Presentation.csprojResolveAssemblyReference.cache
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Match.Presentation\obj\Debug\Match.Presentation.exe
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Match.Presentation\obj\Debug\Match.Presentation.pdb
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Match.Presentation\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Matej\Desktop\Entity_Domaci\Manager\Match.Presentation\bin\Debug\EntityFramework.SqlServer.xml

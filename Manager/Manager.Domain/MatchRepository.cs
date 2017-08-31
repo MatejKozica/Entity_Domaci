@@ -10,6 +10,7 @@ namespace Manager.Domain
 {
     public class MatchRepository
     {
+
         public List<Player> GetAllPlayers()
         {
             using (var context = new MatchContext())
@@ -18,8 +19,26 @@ namespace Manager.Domain
             }
         }
 
+        public void CreateNewPlayer(string name, string lastname, int number, string mail)
+        {
+            using (var context = new MatchContext())
+            { 
+                if(context.Players.FirstOrDefault(x => x.FirstName + x.LastName == name + lastname) == null)
+                {
+                    context.Players.Add(new Player()
+                    {
+                        FirstName = name,
+                        LastName = lastname,
+                        PhoneNumber = number,
+                        Email = mail
+                    });
+                    context.SaveChanges();
+                }          
+            }
+        }
+
 
 
 
     }
-}
+    }
