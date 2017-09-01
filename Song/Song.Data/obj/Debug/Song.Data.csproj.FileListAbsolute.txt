@@ -1,0 +1,10 @@
+C:\Users\Matej\Desktop\Entity2\Song\Song.Data\bin\Debug\Song.Data.dll
+C:\Users\Matej\Desktop\Entity2\Song\Song.Data\bin\Debug\Song.Data.pdb
+C:\Users\Matej\Desktop\Entity2\Song\Song.Data\obj\Debug\Song.Data.csprojResolveAssemblyReference.cache
+C:\Users\Matej\Desktop\Entity2\Song\Song.Data\obj\Debug\Song.Data.dll
+C:\Users\Matej\Desktop\Entity2\Song\Song.Data\obj\Debug\Song.Data.pdb
+C:\Users\Matej\Desktop\Entity2\Song\Song.Data\bin\Debug\Song.Data.dll.config
+C:\Users\Matej\Desktop\Entity2\Song\Song.Data\bin\Debug\EntityFramework.dll
+C:\Users\Matej\Desktop\Entity2\Song\Song.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Matej\Desktop\Entity2\Song\Song.Data\bin\Debug\EntityFramework.xml
+C:\Users\Matej\Desktop\Entity2\Song\Song.Data\bin\Debug\EntityFramework.SqlServer.xml

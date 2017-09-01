@@ -1,0 +1,12 @@
+C:\Users\Matej\Desktop\Entity2\Song\Song.Presentation\bin\Debug\Song.Presentation.exe.config
+C:\Users\Matej\Desktop\Entity2\Song\Song.Presentation\bin\Debug\Song.Presentation.exe
+C:\Users\Matej\Desktop\Entity2\Song\Song.Presentation\bin\Debug\Song.Presentation.pdb
+C:\Users\Matej\Desktop\Entity2\Song\Song.Presentation\bin\Debug\Song.Data.dll
+C:\Users\Matej\Desktop\Entity2\Song\Song.Presentation\bin\Debug\Song.Domain.dll
+C:\Users\Matej\Desktop\Entity2\Song\Song.Presentation\bin\Debug\Song.Data.pdb
+C:\Users\Matej\Desktop\Entity2\Song\Song.Presentation\bin\Debug\Song.Domain.pdb
+C:\Users\Matej\Desktop\Entity2\Song\Song.Presentation\obj\Debug\Song.Presentation.csprojResolveAssemblyReference.cache
+C:\Users\Matej\Desktop\Entity2\Song\Song.Presentation\obj\Debug\Song.Presentation.exe
+C:\Users\Matej\Desktop\Entity2\Song\Song.Presentation\obj\Debug\Song.Presentation.pdb
+C:\Users\Matej\Desktop\Entity2\Song\Song.Presentation\bin\Debug\EntityFramework.dll
+C:\Users\Matej\Desktop\Entity2\Song\Song.Presentation\bin\Debug\EntityFramework.xml

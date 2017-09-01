@@ -1,0 +1,12 @@
+C:\Users\Matej\Desktop\Entity2\Song\Song.Domain\bin\Debug\Song.Domain.dll
+C:\Users\Matej\Desktop\Entity2\Song\Song.Domain\bin\Debug\Song.Domain.pdb
+C:\Users\Matej\Desktop\Entity2\Song\Song.Domain\bin\Debug\Song.Data.dll
+C:\Users\Matej\Desktop\Entity2\Song\Song.Domain\bin\Debug\Song.Data.pdb
+C:\Users\Matej\Desktop\Entity2\Song\Song.Domain\obj\Debug\Song.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Matej\Desktop\Entity2\Song\Song.Domain\obj\Debug\Song.Domain.dll
+C:\Users\Matej\Desktop\Entity2\Song\Song.Domain\obj\Debug\Song.Domain.pdb
+C:\Users\Matej\Desktop\Entity2\Song\Song.Domain\bin\Debug\Song.Domain.dll.config
+C:\Users\Matej\Desktop\Entity2\Song\Song.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Matej\Desktop\Entity2\Song\Song.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Matej\Desktop\Entity2\Song\Song.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Matej\Desktop\Entity2\Song\Song.Domain\bin\Debug\EntityFramework.SqlServer.xml
