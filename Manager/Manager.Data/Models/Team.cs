@@ -12,9 +12,11 @@ namespace Manager.Data.Models
 
         public string Name { get; set; }
         public int TournamentsWon { get; set; }
+        public int FriendlyMatchesWon { get; set; }
         public Nullable<DateTime> LastTournamentWonDate { get; set; }
         public string LogoAnimalName { get; set; }
         public int Capacity = 5;
+        public bool Win { get; set; }
 
     }
 }

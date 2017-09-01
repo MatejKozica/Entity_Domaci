@@ -11,7 +11,8 @@ namespace Manager.Data.Models
         public int Id { get; set; }
 
         public string Name { get; set; }
-        public string Round { get; set; }
+        public int Round { get; set; }
         public bool IsTournamentMatch { get; set; }
+        
     }
 }

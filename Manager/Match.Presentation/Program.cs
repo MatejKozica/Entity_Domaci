@@ -15,12 +15,23 @@ namespace Match.Presentation
             var matchRepository = new MatchRepository();
 
             matchRepository.CreateNewTeam("Cloud9", "Hawk");
+            matchRepository.CreateNewTeam("Lycanthrops", "Wolf");
+            matchRepository.CreateNewTeam("Venom", "Cobra");
 
-            matchRepository.CreateNewPlayer("Mate","Matić", 101, "mate.matic@gmail.com", "Navy");
-            matchRepository.CreateNewPlayer("Luka", "Bulić", 102, "luka.bulic@gmail.com", "Navy");
-            matchRepository.CreateNewPlayer("Luka", "Korda", 103, "luka.korda@gmail.com", "Cloud9");
-            
-            
+            matchRepository.CreateNewPlayer("Josip","Bartulović", 101, "jole.bartulo@gmail.com", "Navy");
+            matchRepository.CreateNewPlayer("Roko", "Radanović", 102, "roko.radanovic@gmail.com", "Navy");
+            matchRepository.CreateNewPlayer("Matej", "Kožica", 103, "matej.kozica@gmail.com", "Cloud9");
+            matchRepository.CreateNewPlayer("Bruno", "Vego", 104, "bruno.vego@gmail.com", "Cloud9");
+            matchRepository.CreateNewPlayer("Zvonimir", "Delaš", 105, "zvone.delas@gmail.com", "Lycanthrops");
+            matchRepository.CreateNewPlayer("Ivan", "Vukorepa", 106, "ivan.vukorepa@gmail.com", "Lycanthrops");
+            matchRepository.CreateNewPlayer("Ivo", "Jovanović", 107, "ivo.jovanovic@gmail.com", "Venom");
+            matchRepository.CreateNewPlayer("Luka", "Kovačušić", 108, "luka.kovacusic@gmail.com", "Venom");
+
+            matchRepository.CreateFriendlyMatch("Cloud9", "Venom");
+
+            matchRepository.CreateNewTournament("T1",DateTime.Now, "Cloud9", "Lycanthrops", "Navy", "Venom");
+
+
 
 
             matchRepository.GetAllPlayers().ForEach(x => Console.WriteLine(x.FirstName + " " + x.LastName));           
