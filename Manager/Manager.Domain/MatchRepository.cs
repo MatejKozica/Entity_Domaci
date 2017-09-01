@@ -51,7 +51,9 @@ namespace Manager.Domain
                         Name = name,
                         LogoAnimalName = logo,
                         LastTournamentWonDate = null,
-                        TournamentsWon = 0
+                        TournamentsWon = 0,
+                        Win = false
+                        
                     });
                 }
                 context.SaveChanges();
@@ -90,6 +92,7 @@ namespace Manager.Domain
                 Random rnd = new Random();
                 List<Team> lista = new List<Team>();
                 lista.Add(context.Teams.FirstOrDefault(x => x.Name == team1));
+                lista.Add(context.Teams.FirstOrDefault(x => x.Name == team2));
                 var Winner = lista[rnd.Next(0, 1)];
 
                 match.Round += 1;
@@ -116,11 +119,6 @@ namespace Manager.Domain
                 lista.Add(context.Teams.FirstOrDefault(x => x.Name == team1));
                 lista.Add(context.Teams.FirstOrDefault(x => x.Name == team2));
 
-                foreach (Team item in lista)
-                {
-                    item.Win = false;
-                }
-
                 int a = rnd.Next(0, 1);
                 var Winner = lista[a];
                 Winner.Win = true;
@@ -131,7 +129,7 @@ namespace Manager.Domain
             }
         }
 
-        public static void Shuffle(List<Team> lista)
+        public static void Organise(List<Team> lista)
         {
             using (var context = new MatchContext())
             {
@@ -170,14 +168,14 @@ namespace Manager.Domain
                 Lista.Add(contex.Teams.FirstOrDefault(x => x.Name == team3));
                 Lista.Add(contex.Teams.FirstOrDefault(x => x.Name == team4));
 
-                Shuffle(Lista);
+                Organise(Lista);
 
                 CreateNewMatch(Lista[0].Name, Lista[1].Name);
                 CreateNewMatch(Lista[2].Name, Lista[3].Name);
 
                 for (int i = 0; i < Lista.Count(); i++)
                 {
-                    if(Lista[i].Win == true)
+                    if(Lista[i].Win != true)
                     {
                         Lista.Remove(Lista[i]);
                     }
